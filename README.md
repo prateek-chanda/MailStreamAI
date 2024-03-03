@@ -34,7 +34,9 @@ git clone https://github.com/prateek-chanda/MailStreamAI.git
 
 To run MailStream AI, execute the following command in the terminal:
 
-python fetch_emails.py
+python fetch_emails.py > api_call.py > notion_sync.py 
+
+Only one email is being used as a demo at present
 
 This command initiates the email fetching process, task extraction, and synchronization with Notion.
 
